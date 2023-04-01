@@ -5,12 +5,12 @@ html {
 }
 
 html::after {
-  content: "Team Inspire (iframe)";
+  content: "Team Inspire";
   display: block;
   background-color: #7C9B2F;
   color: white;
   position: absolute;
   padding: 2px 5px;
   bottom: 10px;
-  right: 7px;
+  left: 7px;
 }

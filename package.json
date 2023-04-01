@@ -1,10 +1,10 @@
 {
-  "name": "mf02-iframe-inspire",
+  "name": "mf03-ajax-inspire",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mfserve --listen 3002",
+    "start": "mfserve --listen 3002 --cors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
