@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -15,14 +15,11 @@ a {
 
 /* RECOMMENDATION PAGE STYLES */
 
-.inspire_layout {
+.layout {
   padding: 0 1rem 1rem;
-  min-width: 42rem;
-  max-width: 55rem;
-  margin: 0 auto;
 }
 
-.inspire_header {
+.header {
   font-size: 2rem;
   margin: 1rem 0 0;
   text-align: center;
@@ -34,8 +31,7 @@ a {
 
 /* RECOMMENDATION CONTENT STYLES */
 
-.inspire_headline {
-  padding-top: 1em;
+h2 {
   font-size: 1em;
   font-weight: normal;
   text-align: center;
@@ -43,17 +39,17 @@ a {
   margin: 0;
 }
 
-.inspire_recommendations {
+.recommendations {
   text-align: center;
 }
 
-.inspire_recommendations a {
+.recommendations a {
   display: inline-block;
   margin: 1rem;
   border: 1px solid #333;
 }
 
-.inspire_recommendations img {
+.recommendations img {
   max-width: 100%;
   width: 300px;
 }
